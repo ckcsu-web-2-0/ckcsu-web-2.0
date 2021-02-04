@@ -1,0 +1,38 @@
+profile:
+  name: 宣传与网络中心
+  avatar: /medias/web.jpg
+  career: 工具人部门
+  introduction: 这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，
+
+Projects:
+  enable: true
+  data:
+    肝锅:
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+      url: http://github.com/blinkfox/hexo-theme-matery
+      desc: 总之就是肝锅。
+    职能二:
+        icon: fas fa-database
+        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+        url: https://github.com/blinkfox/fenix
+        desc: 职能二简述。
+    职能三:
+        icon: fas fa-file-alt
+        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+        url: https://github.com/blinkfox/typora-vue-theme
+        desc: 职能三简述。
+
+mySkills:
+  enable: false
+
+myGallery:
+  enable: true
+  data:
+    - /medias/featureimages/0.jpg
+    - /medias/featureimages/1.jpg
+    - /medias/featureimages/2.jpg
+    - /medias/featureimages/3.jpg
+    - /medias/featureimages/4.jpg
+    - /medias/featureimages/5.jpg
+    - /medias/featureimages/6.jpg

@@ -1,0 +1,61 @@
+<style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
+    }
+</style>
+
+<%- partial('_partial/bg-cover') %>
+
+<main class="content">
+
+    <div id="aboutme" class="container about-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
+                        <%- partial('_partial/post-statis') %>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="profile center-align">
+                            <div class="avatar">
+                                <img src="<%- theme.jsDelivr.url %><%- url_for(theme.profile.avatar) %>" alt="<%- config.author %>"
+                                     class="circle responsive-img avatar-img">
+                            </div>
+                            <div class="author">
+                                <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
+                                    <%- partial('_partial/post-statis') %>
+                                </div>
+                                <div class="title"><%- page.profile.name %></div>
+                                <div class="career"><%- page.profile.career %></div>
+                                <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
+                                    <%- partial('_partial/social-link') %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
+                        <div class="social-link">
+                            <%- partial('_partial/social-link') %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="introduction center-align" data-aos="fade-up"><%= page.profile.introduction %></div>
+
+                <% if (page.myGallery && page.myGallery.enable) { %>
+                <%- partial('_widget/my-gallery') %>
+                <% } %>
+
+                <% if (page.myProjects && page.myProjects.enable) { %>
+                <%- partial('_widget/my-projects') %>
+                <% } %>
+
+                <% if (page.myPerson) { %>
+                <%- partial('_widget/persons') %>
+                <% } %>
+
+            </div>
+        </div>
+    </div>
+</main>

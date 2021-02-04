@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>itsNekoDeng-纯css制作仿微信聊天页面</title>
+    <style>
+        .triangle{
+            margin: 0 auto;
+            background-color: #ebebe9;
+        }
+        .triangle ul{
+            padding: 10px;
+        }
+        .triangle li{
+            position: relative;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+        .triangle li span{
+            position: relative;
+            border-radius: 7px;
+            background-color: #a6e860;
+            padding: 20px 15px 20px 15px;
+            z-index: 1;
+        }
+        .triangle .textLeft span{
+            background-color: white;
+            position: absolute;
+            top: 18px;
+            left: 86px;
+        }
+        .triangle .textRight span{
+            position: absolute;
+            top: 18px;
+            right: 86px;
+            text-align: left;
+        }
+        .triangle li.textLeft:before{
+            content: url("https://pic.downk.cc/item/5fdb71323ffa7d37b3c6b334.png");
+            box-sizing: border-box;
+            position: relative;
+            left: -10px;
+            top: 9px;
+        }
+        .triangle li.textLeft span:before{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-right: 8px solid white;
+            position: absolute;
+            top: 8px;
+            left: -16px;
+        }
+        .triangle li.textRight:after{
+            content: url("https://pic.downk.cc/item/5fdb712d3ffa7d37b3c6ac7a.jpg");
+            box-sizing: border-box;
+            position: relative;
+            right: -10px;
+            top: 9px;
+        }
+        .triangle li.textRight span:after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-left: 8px solid #a6e860;
+            position: absolute;
+            top: 8px;
+            right: -16px;
+        }
+        li{
+            list-style: none;
+        }
+        .textRight{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+<div class="triangle">
+    <ul>
+        <li class="textRight">
+            <span>你是谁</span>
+        </li>
+        <li class="textLeft">
+            <span>name: CKCSU</span>
+        </li>
+        <li class="textLeft">
+            <span>url: 47.101.67.188:4000</span>
+        </li>
+        <li class="textLeft">
+            <span>desc: 十万伏特皮卡丘，梦想是世界和平，想要发光发热</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 你买的什么书 ？ ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ 编程 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“  C++还是JAVA ？ ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ 沈从文 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 哈 ？ ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ 害，这大概就是古人云文人骚客吧 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 曾粗浅地认为只有programmer才搭博客，后来发现了什么才是大千世界 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 18岁的最后一天我还是没能成为奥特曼，我知道我可能当不了奥特曼啦 ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ CKCSU，我就是你的奥特曼啊 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 啊这？迪迦吗？ ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ 那一年，我和你一起变成了光 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 哈 ？ ”</span>
+        </li>
+        <li class="textRight">
+            <span>“ 心里有光每个人就都是奥特曼哦 ”</span>
+        </li>
+        <li class="textLeft">
+            <span>“ 嗯，一定要相信这世界会有奥特曼和光~ ”</span>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
