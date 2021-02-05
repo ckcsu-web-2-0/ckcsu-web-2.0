@@ -1625,7 +1625,7 @@ thead {
 
 .my-gallery .info .info-title {
     margin: 0.1rem 0 0.875rem;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-weight: 500;
     line-height: 1.1em;
 }
@@ -1637,8 +1637,8 @@ thead {
 
 .my-gallery .info .info-desc {
     margin: 0 0 10px;
-    font-size: 0.9rem;
-    line-height: 0.8em;
+    font-size: 0.7rem;
+    line-height: 0.6em;
     color: #999;
 }
 
