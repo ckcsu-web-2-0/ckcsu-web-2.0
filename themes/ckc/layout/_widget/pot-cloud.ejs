@@ -22,7 +22,7 @@ var isCategory = is_category();
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;<%= __('postCategoryTitle') %>
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;我们的锅
             </div>
             <div class="tag-chips">
                 <% if (site.categories && site.categories.length > 0) { %>
@@ -33,7 +33,7 @@ var isCategory = is_category();
                             ? colorArr[Math.abs(hashCode(category.name) % colorCount)]
                             : colorArr[i - 1];
                 %>
-                <% if (category.name != "未接单" && category.name != "已接单" && category.name != "已完成单") { %>
+                <% if (category.name == "未接单" || category.name == "已接单" || category.name == "已完成单") { %>
                 <a href="<%- url_for(category.path) %>" title="<%- category.name %>: <%- category.length %>">
                     <span class="chip center-align waves-effect waves-light
                             <% if (isCategory && category.name == page.category) { %> chip-active <% } else { %> chip-default <% } %>"

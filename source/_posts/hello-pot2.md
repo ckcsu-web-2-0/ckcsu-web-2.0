@@ -1,6 +1,6 @@
 ---
-title: Hello Pot
-categories: 未接单
+title: Hello Pot 2
+categories: 已接单
 tag: pot
 type: "pot"
 layout: "pot"
@@ -19,5 +19,3 @@ pot:
   requirement: 能用
   reviewPerson: 栋哥
 ---
-
-文件链接：[点这里](https://pan.baidu.com)

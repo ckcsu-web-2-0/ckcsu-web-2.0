@@ -8,18 +8,14 @@ menu:
     url: /tags
     icon: fas fa-tags
   分类:
-    url: /categories
     icon: fas fa-bookmark
     children:
-      - name: 来接锅
-        url: /pot
-        icon: fas fa-thumbs-up
-      - name: 学生活动
-        url: /act
+      - name: 往期文章
+        url: /categories
         icon: fas fa-hand-spock
-      - name: 加入我们
-        url: /add
-        icon: fas fa-hand-peace
+      - name: 我们的锅
+        url: /pot-exhibit
+        icon: fas fa-thumbs-up
   归档:
     url: /archives
     icon: fas fa-archive
