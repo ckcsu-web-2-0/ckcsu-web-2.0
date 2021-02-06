@@ -63,7 +63,57 @@
       
       <categories>
           
-          <category> pot </category>
+          <category> 未接单 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Pot 2</title>
+      <link href="2021/02/03/hello-pot2/"/>
+      <url>2021/02/03/hello-pot2/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 已接单 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Pot 3</title>
+      <link href="2021/02/03/hello-pot3/"/>
+      <url>2021/02/03/hello-pot3/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 已完成单 </category>
           
       </categories>
       

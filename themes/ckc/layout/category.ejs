@@ -2,7 +2,11 @@
 
 <main class="content">
 
+    <% if (page.category != "未接单" && page.category != "已接单" && page.category != "已完成单") { %>
     <%- partial('_widget/category-cloud') %>
+    <% } else { %>
+    <%- partial('_widget/pot-cloud') %>
+    <% } %>
 
     <%
     var hashCode = function (str) {
