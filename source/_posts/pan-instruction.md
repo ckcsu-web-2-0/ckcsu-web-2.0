@@ -15,15 +15,15 @@ date: 2021-02-03 19:00:00
 
 按`Ctrl+S`，出现如下界面：
 
-![](pic1.png)
+![](http://119.45.92.145/images/pan-instruction/pic1.png)
 
 点击`新站点`，出现如下界面
 
-![](pic2.png)
+![](http://119.45.92.145/images/pan-instruction/pic2.png)
 
 在“主机”中输入ip地址，再输入部门的用户名与密码，点击连接即可
 
-![](pic3.png)
+![](http://119.45.92.145/images/pan-instruction/pic3.png)
 
 至于你的文件传到哪里
 
