@@ -58,8 +58,10 @@ var gallery = page.myPerson;
         <% Object.keys(gallery).forEach(function(idx) { %>
             <div class="col s12 m6 l2" data-aos="fade-up">
                 <div class="info center-align">
-                    <div class="img-item" data-src="<%- gallery[idx].photo %>">
-                        <img src="<%- theme.jsDelivr.url %><%- url_for(gallery[idx].photo) %>" class="responsive-img">
+                    <div class="photo" data-aos="fade-up">
+                        <div class="img-item" data-src="<%- gallery[idx].photo %>">
+                            <img src="<%- theme.jsDelivr.url %><%- url_for(gallery[idx].photo) %>" class="responsive-img">
+                        </div>
                     </div>
                     <div class="info-title"><%- gallery[idx].name %></div>
                     <div class="info-desc"><%= gallery[idx].nickname %></div>

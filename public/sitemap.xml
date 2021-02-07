@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/about/design-and-web/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2021/02/03/pan-instruction/</loc>
     
     <lastmod>2021-02-07</lastmod>
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/design-and-web/index.html</loc>
-    
-    <lastmod>2021-02-04</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://example.com/lab/lab4/index.html</loc>
     
     <lastmod>2021-02-04</lastmod>
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/lab/lab2/index.html</loc>
+    <loc>http://example.com/lab/lab1/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/lab/lab1/index.html</loc>
+    <loc>http://example.com/lab/lab2/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
@@ -139,20 +139,6 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E6%9C%AA%E6%8E%A5%E5%8D%95/</loc>
-    <lastmod>2021-02-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/%E5%B7%B2%E6%8E%A5%E5%8D%95/</loc>
-    <lastmod>2021-02-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/%E5%B7%B2%E5%AE%8C%E6%88%90%E5%8D%95/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
@@ -160,7 +146,21 @@
   </url>
   
   <url>
+    <loc>http://example.com/categories/%E6%9C%AA%E6%8E%A5%E5%8D%95/</loc>
+    <lastmod>2021-02-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/%E6%8C%87%E5%8C%97/</loc>
+    <lastmod>2021-02-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/%E5%B7%B2%E6%8E%A5%E5%8D%95/</loc>
     <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

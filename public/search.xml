@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>网盘使用指北</title>
+      <link href="2021/02/03/pan-instruction/"/>
+      <url>2021/02/03/pan-instruction/</url>
+      
+        <content type="html"><![CDATA[<p>点击以下链接下载FileZilla</p><p><a href="https://ckcsu.com.cn/applications/FileZilla.zip">下载地址1（本站）</a>、<a href="https://en.softonic.com/download/filezilla/windows/post-download">下载地址2（官网）</a></p><p>点开安装包，进行安装</p><p>按<code>Ctrl+S</code>，出现如下界面：</p><p><img src="http://119.45.92.145/images/pan-instruction/pic1.png"></p><p>点击<code>新站点</code>，出现如下界面</p><p><img src="http://119.45.92.145/images/pan-instruction/pic2.png"></p><p>在“主机”中输入ip地址，再输入部门的用户名与密码，点击连接即可</p><p><img src="http://119.45.92.145/images/pan-instruction/pic3.png"></p><p>至于你的文件传到哪里</p><p>等yt先弄好再告诉你们</p><p>yt快干活啦！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 指北 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 指北 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>下单指北</title>
       <link href="2021/02/03/pot-instruction/"/>
       <url>2021/02/03/pot-instruction/</url>
@@ -29,23 +54,23 @@
     
     
     <entry>
-      <title>网盘使用指北</title>
-      <link href="2021/02/03/pan-instruction/"/>
-      <url>2021/02/03/pan-instruction/</url>
+      <title>Hello Pot 3</title>
+      <link href="2021/02/03/hello-pot3/"/>
+      <url>2021/02/03/hello-pot3/</url>
       
-        <content type="html"><![CDATA[<p>点击以下链接下载FileZilla</p><p><a href="https://ckcsu.com.cn/applications/FileZilla.zip">下载地址1（本站）</a>、<a href="https://en.softonic.com/download/filezilla/windows/post-download">下载地址2（官网）</a></p><p>点开安装包，进行安装</p><p>按<code>Ctrl+S</code>，出现如下界面：</p><p><img src="http://119.45.92.145/images/pan-instruction/pic1.png"></p><p>点击<code>新站点</code>，出现如下界面</p><p><img src="http://119.45.92.145/images/pan-instruction/pic2.png"></p><p>在“主机”中输入ip地址，再输入部门的用户名与密码，点击连接即可</p><p><img src="http://119.45.92.145/images/pan-instruction/pic3.png"></p><p>至于你的文件传到哪里</p><p>等yt先弄好再告诉你们</p><p>yt快干活啦！</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> 指北 </category>
+          <category> 已完成单 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 指北 </tag>
+            <tag> pot </tag>
             
         </tags>
       
@@ -89,31 +114,6 @@
       <categories>
           
           <category> 已接单 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> pot </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello Pot 3</title>
-      <link href="2021/02/03/hello-pot3/"/>
-      <url>2021/02/03/hello-pot3/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 已完成单 </category>
           
       </categories>
       

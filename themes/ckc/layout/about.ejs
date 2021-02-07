@@ -5,6 +5,11 @@
     }
 </style>
 
+<%
+var intro = page.profile.introduction;
+var func = page.myFunctions;
+%>
+
 <%- partial('_partial/bg-cover') %>
 
 <main class="content">
@@ -41,14 +46,26 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up"><%= page.profile.introduction %></div>
+                <% if (intro) { %>
+                    <% Object.keys(intro).forEach(function(idx) { %>
+                        <div class="introduction center-align" data-aos="fade-up"><%= intro[idx] %></div>
+                    <% }); %>
+                <% } %>
 
                 <% if (page.myGallery && page.myGallery.enable) { %>
                 <%- partial('_widget/my-gallery') %>
                 <% } %>
 
-                <% if (page.myProjects && page.myProjects.enable) { %>
-                <%- partial('_widget/my-projects') %>
+                <div class="my-projects">
+                    <div class="title center-align" data-aos="zoom-in-up">
+                        <i class="fas fa-gift"></i>&nbsp;&nbsp;我们的职能
+                    </div>
+                </div>
+
+                <% if (func && func.enable) { %>
+                    <% Object.keys(func.data).forEach(function(idx) { %>
+                        <div class="introduction center-align" data-aos="fade-up"><%= func.data[idx] %></div>
+                    <% }); %>
                 <% } %>
 
                 <% if (page.myPerson) { %>
