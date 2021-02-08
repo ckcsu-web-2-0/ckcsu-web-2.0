@@ -25,15 +25,33 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - https://i.loli.net/2021/02/07/DNmgjMiHe2RSnpF.jpg
-    - https://i.loli.net/2021/02/07/pJfbszMT3Y9kxgr.jpg
-    - https://i.loli.net/2021/02/07/yOXtIM5lZSCNoAv.jpg
-    - https://i.loli.net/2021/02/07/Ilb6oFENRvhdw7e.jpg
-    - https://i.loli.net/2021/02/07/rklejfyVJmUci1h.jpg
-    - https://i.loli.net/2021/02/07/r9h2c7vPGx4OiXw.jpg
-    - https://i.loli.net/2021/02/07/Md6PYEQ7OrymDKU.jpg
-    - https://i.loli.net/2021/02/07/WsbqIymShM6d5nr.jpg
-    - https://i.loli.net/2021/02/07/rWLMn2CbGaHpTds.jpg
+    pic1:
+      url: https://i.loli.net/2021/02/07/DNmgjMiHe2RSnpF.jpg
+      thumbnail: /medias/design-and-web/gallery/1.jpg
+    pic2:
+      url: https://i.loli.net/2021/02/07/pJfbszMT3Y9kxgr.jpg
+      thumbnail: /medias/design-and-web/gallery/2.jpg
+    pic3:
+      url: https://i.loli.net/2021/02/07/yOXtIM5lZSCNoAv.jpg
+      thumbnail: /medias/design-and-web/gallery/3.jpg
+    pic4:
+      url: https://i.loli.net/2021/02/07/Ilb6oFENRvhdw7e.jpg
+      thumbnail: /medias/design-and-web/gallery/4.jpg
+    pic5:
+      url: https://i.loli.net/2021/02/07/rklejfyVJmUci1h.jpg
+      thumbnail: /medias/design-and-web/gallery/5.jpg
+    pic6:
+      url: https://i.loli.net/2021/02/07/r9h2c7vPGx4OiXw.jpg
+      thumbnail: /medias/design-and-web/gallery/6.jpg
+    pic7:
+      url: https://i.loli.net/2021/02/07/Md6PYEQ7OrymDKU.jpg
+      thumbnail: /medias/design-and-web/gallery/7.jpg
+    pic8:
+      url: https://i.loli.net/2021/02/07/WsbqIymShM6d5nr.jpg
+      thumbnail: /medias/design-and-web/gallery/8.jpg
+    pic9:
+      url: https://i.loli.net/2021/02/07/rWLMn2CbGaHpTds.jpg
+      thumbnail: /medias/design-and-web/gallery/9.jpg
 
 myPerson: 
   no1: 
