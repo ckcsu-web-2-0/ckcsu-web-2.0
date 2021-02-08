@@ -1,34 +1,22 @@
 ---
-title: 外交部
+title: 对外交流部
 date: 2021-02-02 23:15:00
 type: "about"
 layout: "about"
 
 profile:
-  name: 外交部
+  name: 对外交流部
   avatar: /medias/diplomacy/avatar.jpg
   career: 
-  introduction: “内合外联皆学问，言行举止即文章”，来到外交，你就是这句话最好的代言。我们是敢想与敢做的舞台，是联结竺院与社会的梦想之窗。我们有通向万千世界的窗口——在“开学福利”中，与商家洽谈，为大家寻美食谋福利；在“名企之路”上，与企业的HR沟通，策划一场丰富的体验之旅；在“美院联谊”中，踏上一场名为艺术的旅途，在“寻美”中洗涤眼睛与心灵。我们有汇聚各地英才的平台——长三角四校联合峰会中，与四校才俊一起分享经历，碰撞思想；暑期四校联合支教时，与志同道合的伙伴沟通、合作，一同去西部赴约，收获成长与感动！
+  introduction: 
+  - “内合外联皆学问，言行举止即文章”，来到外交，你就是这句话最好的代言。我们是敢想与敢做的舞台，是联结竺院与社会的梦想之窗。我们有通向万千世界的窗口——在“开学福利”中，与商家洽谈，为大家寻美食谋福利；在“名企之路”上，与企业的HR沟通，策划一场丰富的体验之旅；在“美院联谊”中，踏上一场名为艺术的旅途，在“寻美”中洗涤眼睛与心灵。我们有汇聚各地英才的平台——长三角四校联合峰会中，与四校才俊一起分享经历，碰撞思想；暑期四校联合支教时，与志同道合的伙伴沟通、合作，一同去西部赴约，收获成长与感动！
 
 
 myFunctions:
   enable: true
   data:
-    外联:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: 我们有通向万千世界的窗口——开学福利、名企之路；我们有汇聚各地英才的平台——美院联谊、四校活动。
-    内合:
-      icon: fas fa-database
-      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-      url: https://github.com/blinkfox/fenix
-      desc: 丰富的内训与多样的内建助力部门自我的成长！
-    职能三:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-      url: https://github.com/blinkfox/typora-vue-theme
-      desc: 职能三简述。
+    - 外联:我们有通向万千世界的窗口——开学福利、名企之路；我们有汇聚各地英才的平台——美院联谊、四校活动。
+    - 内合:丰富的内训与多样的内建助力部门自我的成长！
 
 mySkills:
   enable: false
