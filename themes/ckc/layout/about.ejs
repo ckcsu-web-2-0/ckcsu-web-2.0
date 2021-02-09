@@ -56,6 +56,22 @@ var func = page.myFunctions;
                 <%- partial('_widget/my-gallery') %>
                 <% } %>
 
+                <% if (page.myPositions && page.myPositions.enable){ %>
+                    <% if (page.myPositions.type == "with-logo") { %>
+                        <%- partial('_widget/my-positions') %>
+                    <% } else { %>
+                        <div class="my-projects">
+                            <div class="title center-align" data-aos="zoom-in-up">
+                                <i class="fas fa-gift"></i>&nbsp;&nbsp;我们的岗位
+                            </div>
+                        </div>
+                        <% var posi = page.myPositions %>
+                        <% Object.keys(posi.data).forEach(function(idxx) { %>
+                            <div class="introduction center-align" data-aos="fade-up"><%= posi.data[idxx] %></div>
+                        <% }); %>
+                    <% } %>
+                <% } %>
+
                 <% if (func && func.enable) { %>
                     <div class="my-projects">
                         <div class="title center-align" data-aos="zoom-in-up">
