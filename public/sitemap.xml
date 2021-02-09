@@ -51,7 +51,63 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/pot-exhibit/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/lab/lab3/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/lab/lab4/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/lab/lab2/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/lab/lab1/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/friends/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/contact/index.html</loc>
+    
+    <lastmod>2021-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2021-02-07</lastmod>
     
@@ -72,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/02/03/hello-pot2/</loc>
+    <loc>http://example.com/2021/02/03/hello-pot/</loc>
     
     <lastmod>2021-02-07</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/02/03/hello-pot/</loc>
+    <loc>http://example.com/2021/02/03/hello-pot2/</loc>
     
     <lastmod>2021-02-07</lastmod>
     
@@ -89,62 +145,6 @@
     <loc>http://example.com/2021/02/03/hello-pot3/</loc>
     
     <lastmod>2021-02-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/lab/lab4/index.html</loc>
-    
-    <lastmod>2021-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/lab/lab3/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/lab/lab1/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/lab/lab2/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/friends/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/contact/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
     
   </url>
   
