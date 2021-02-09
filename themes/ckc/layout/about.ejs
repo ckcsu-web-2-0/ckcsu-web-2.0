@@ -56,16 +56,17 @@ var func = page.myFunctions;
                 <%- partial('_widget/my-gallery') %>
                 <% } %>
 
-                <div class="my-projects">
-                    <div class="title center-align" data-aos="zoom-in-up">
-                        <i class="fas fa-gift"></i>&nbsp;&nbsp;我们的职能
-                    </div>
-                </div>
-
                 <% if (func && func.enable) { %>
+                    <div class="my-projects">
+                        <div class="title center-align" data-aos="zoom-in-up">
+                            <i class="fas fa-gift"></i>&nbsp;&nbsp;我们的职能
+                        </div>
+                    </div>
                     <% Object.keys(func.data).forEach(function(idx) { %>
                         <div class="introduction center-align" data-aos="fade-up"><%= func.data[idx] %></div>
                     <% }); %>
+                <% } else {%>
+                    <%- partial('_widget/my-projects') %>
                 <% } %>
 
                 <% if (page.myPerson) { %>
