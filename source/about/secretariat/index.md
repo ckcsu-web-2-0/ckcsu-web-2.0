@@ -7,27 +7,22 @@ layout: "about"
 profile:
   name: 秘书处
   avatar: /medias/secretariat/avatar.jpg
-  career: 蜜小淑
-  introduction: 这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，这里是简介，
+  career: 
+  introduction: 
+  - 秘书处作为竺可桢学院学生会的核心中枢部门，主要承担学生会的内建管理、各部门间的联络协调，以及学生会的日常运营工作。部门工作之外，秘书处更是一个温暖的家：从生日party到部门日租，从例会bg（请客）到深夜dt（deep talk），从热闹群聊到组爸组妈……秘书处，温暖港湾的不二之选！
 
-myProjects:
+
+myFunctions:
   enable: true
   data:
-    职能一:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: 职能一简述
-    职能二:
-      icon: fas fa-database
-      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-      url: https://github.com/blinkfox/fenix
-      desc: 职能二简述。
-    职能三:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-      url: https://github.com/blinkfox/typora-vue-theme
-      desc: 职能三简述。
+    - 秘书处作为竺可桢学院学生会的核心中枢部门，共有以下三种岗位：
+    - ·内建——内建小分队负责秘书处的例会通知、财物管理工作，他们还是蜜大淑蜜小淑们生日party以及日常内建活动的主要策划者
+    - ·礼仪队经理——负责竺可桢学院学生会礼仪队的纳新、培训、服装、出勤等工作
+    - ·联络员——每位联络员对接秘书处外的一个部门，身处于秘书处与其他部门之一间，他们是部门间的联络纽带，两个部门，双重身份
+    - 秘书处主要承担以下三项工作：
+    - ·会内建设——主办竺院学生会破冰大会、年中总结、年终总结大会，提高各部门间的熟悉度，从而增进学生会整体的凝聚力
+    - ·财物管理——负责竺可桢学院学生会的财务报销工作以及物资管理
+    - ·联络协调——沟通联络全会各部门，传达部门间信息，帮助各部门解决沟通问题
 
 mySkills:
   enable: false
@@ -35,21 +30,76 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/secretariat/gallary/1.jpg
-    - /medias/secretariat/gallary/2.jpg
-    - /medias/secretariat/gallary/3.jpg
+    pic1:
+      url: https://i.loli.net/2021/02/09/HIdzEhm8vgn4QCt.jpg
+      thumbnail: /medias/secretariat/gallery/1.jpg
+    pic2:
+      url: https://i.loli.net/2021/02/09/kw5GEDOIZecbprQ.jpg
+      thumbnail: /medias/secretariat/gallery/2.jpg
+    pic3:
+      url: https://i.loli.net/2021/02/09/ZSRPc7CeDoUv5zm.jpg
+      thumbnail: /medias/secretariat/gallery/3.jpg
 
-myPerson: 
-  no1: 
-    photo: /medias/secretariat/personalPhotos/1.jpg
-    name: 张三
-    nickname: 阿三
-    birthday: 2000/3/3
+myPerson:
+  My Person:
+   no1:
+    name: 马昕
+    nickname: 拾壹
+    birthday: 2000/11/30
     position: 部长
-  no2: 
-    photo: /medias/secretariat/personalPhotos/1.jpg
-    name: 李四
-    nickname: 阿四
-    birthday: 2000/4/4
+  no2:
+    name: 龚梓傲
+    nickname: 龚神
+    birthday: 2000/11/04
     position: 副部长
+  no4:
+    name: 杨以恒
+    nickname: 咩咩
+    birthday: 2001/08/26
+    position: 副部长
+  no5:
+    name: 张乃月
+    nickname: 乃哥
+    birthday: 2001/12/23
+    position: 礼仪队经理
+  no6:
+    name: 鲁莹
+    nickname: 川川
+    birthday: 2002/05/08
+    position: 发展创新部联络员
+  no7:
+    name:廖楚阳
+    nickname:Meia
+    birthday:2003/1/15
+    position:宣传与网络中心联络员
+  no8:
+    name: 徐宇航
+    nickname: 蛋蛋
+    birthday: 2002/03/21
+    position: 学术部联络员
+  no9:
+    name:周逸飞
+    nickname:飞飞
+    birthday:2001/09/28
+    position:文艺部联络员
+  no10:
+    name: 王子奇
+    nickname: 奇奇
+    birthday: 2002/12/24
+    position: 对外交流部联络员
+  no11:
+    name: 卫高祺
+    nickname: 平平
+    birthday: 2002/06/06
+    position: 体育部联络员
+  no12:
+    name: 陈淦豪
+    nickname: 淦
+    birthday: 2002/05/09
+    position: 权益服务部联络员
+  no13:
+    name: 薄上一
+    nickname: 一一
+    birthday: 2002/09/23
+    position: 内建
 ---
