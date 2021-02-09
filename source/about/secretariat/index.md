@@ -42,7 +42,6 @@ myGallery:
       thumbnail: /medias/secretariat/gallery/3.jpg
 
 myPerson:
-  My Person:
    no1:
     photo: /medias/secretariat/personalPhotos/1.jpg
     name: 马昕
