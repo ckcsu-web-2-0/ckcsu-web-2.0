@@ -79,7 +79,7 @@ myPerson:
     birthday: 2001/8/11
     position: 副部长
   no5: 
-    photo: /medias/design-and-web/personalPhotos/5.jpg
+    photo: /medias/design-and-web/personalPhotos/5.png
     name: 陈弘泽
     nickname: 给给
     birthday: 2000/12/21
