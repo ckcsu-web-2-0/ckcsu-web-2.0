@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://example.com/2021/02/08/NewBeeHere/</loc>
+    <lastmod>2021-02-08</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/02/03/pot-instruction/</loc>
+    <lastmod>2021-02-08</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/02/03/pan-instruction/</loc>
+    <lastmod>2021-02-08</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/02/03/hello-pot3/</loc>
+    <lastmod>2021-02-06</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/02/03/hello-pot2/</loc>
+    <lastmod>2021-02-06</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/02/03/hello-pot/</loc>
+    <lastmod>2021-02-06</lastmod>
+  </url>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -24,4 +52,5 @@
     <loc>http://example.com/2021/02/03/hello-pot3/</loc>
     <lastmod>2021-02-07</lastmod>
   </url>
+>>>>>>> main
 </urlset> 
