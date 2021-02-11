@@ -1,0 +1,115 @@
+外交 126
+  no1:
+    photo: /medias/diplomacy/personalPhotos/1.jpg
+    name: 戴蕙鲡
+    nickname: 呆呆
+    birthday: 2000/02/03
+    position: 部长
+  no2:
+    photo: /medias/diplomacy/personalPhotos/2.jpg
+    name: 倪小涵
+    nickname: 小涵
+    birthday: 2001/7/26
+    position: 副部长 
+  no3:
+    photo: /medias/diplomacy/personalPhotos/3.jpg
+    name: 邓昀韵
+    nickname: 昀韵
+    birthday: 2001/11/17
+    position: 副部长 
+  no4:
+    photo: /medias/diplomacy/personalPhotos/4.jpg
+    name: 柴珧
+    nickname: 跳跳
+    birthday: 2001/09/08
+    position: 干事
+  no5:
+    photo: /medias/diplomacy/personalPhotos/5.jpg
+    name: 国奥
+    nickname: 闹闹
+    birthday: 2001/05/29
+    position: 干事
+  no6:
+    photo: /medias/diplomacy/personalPhotos/6.jpg
+    name: 姜一诺
+    nickname: juojuo
+    birthday: 2002/04/29
+    position: 干事
+  no7:
+    photo: /medias/diplomacy/personalPhotos/7.jpg
+    name: 蓝钧溢
+    nickname: 小蓝蓝
+    birthday: 2002/07/21
+    position: 干事
+  no8:
+    photo: /medias/diplomacy/personalPhotos/8.jpg
+    name: 楼亦涵
+    nickname: echo
+    birthday: 2001/11/11
+    position: 干事
+  no9:
+    photo: /medias/diplomacy/personalPhotos/9.jpg
+    name: 翁心悦
+    nickname: Carrot/心悦
+    birthday: 2001/10/19
+    position: 干事
+  no10:
+    photo: /medias/diplomacy/personalPhotos/10.jpg
+    name: 肖智尹
+    nickname: 写作业
+    birthday: 2002/11/22
+    position: 干事
+  no11:
+    photo: /medias/diplomacy/personalPhotos/11.jpg
+    name: 袁泽清
+    nickname: Leo
+    birthday: 2002/01/11
+    position: 干事
+  no12:
+    photo: /medias/diplomacy/personalPhotos/12.jpg
+    name: 张嘉颢
+    nickname: 渣渣颢
+    birthday: 2002/08/24
+    position: 干事
+  no13:
+    photo: /medias/diplomacy/personalPhotos/13.jpg
+    name: 张明月
+    nickname: 小岳岳
+    birthday: 2002/03/15
+    position: 干事
+  no14:
+    photo: /medias/diplomacy/personalPhotos/14.jpg
+    name: 张瑞妍
+    nickname: 堆堆
+    birthday: 2002/07/14
+    position: 干事
+  no15:
+    photo: /medias/diplomacy/personalPhotos/15.jpg
+    name: 张瑞影
+    nickname: ring
+    birthday: 2001/04/20
+    position: 干事
+  no16:
+    photo: /medias/diplomacy/personalPhotos/16.jpg
+    name: 张镇坤
+    nickname: 坤坤
+    birthday: 2002/10/13
+    position: 干事
+  no17:
+    photo: /medias/diplomacy/personalPhotos/17.jpg
+    name: 郑思危
+    nickname: 小灰灰
+    birthday: 2002/04/09
+    position: 干事
+  no18:
+    photo: /medias/diplomacy/personalPhotos/18.jpg
+    name: 周陈昊
+    nickname: 昊昊/天天
+    birthday: 2002/03/14
+    position: 干事
+  no19:
+    photo: /medias/diplomacy/personalPhotos/19.jpg
+    name: 王子奇
+    nickname: 奇奇
+    birthday: 2002/12/24
+    position: 干事
