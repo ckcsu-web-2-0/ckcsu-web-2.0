@@ -16,7 +16,7 @@ birthday_cli_on.onclick = function () {
   birthday_r_len = 0;
   birthday_timer = setInterval(birthday_slideright, 10);
  } else {
-  birthday_r_len = -160;
+  birthday_r_len = -260;
   birthday_timer = setInterval(birthday_slideleft, 10);
  }
 }
@@ -182,13 +182,20 @@ allPerson[144] = new ckcPerson("王子奇", "外交", 12, 24);
 for(var i = 0; i < allPerson.length; i++){
     var restDay = getDaysDif(curDate, allPerson[i].birthday);
     if(restDay >= 0 && restDay < 15){
-        console.log("距 " + allPerson[i].depart + " " + allPerson[i].name + " 的生日还有 " + restDay + "天！");
+        outputBirth("距 " + allPerson[i].depart + " " + allPerson[i].name + " 的生日还有 " + parseInt(restDay) + "天！");
     }
+}
+
+function outputBirth(birthText){
+    var frameLi = document.createElement("li");
+    frameLi.innerHTML = birthText;
+    var bodyFa = document.getElementById("birthday_menu_ul");
+    bodyFa .appendChild(frameLi);
 }
 
 //展开
 function birthday_slideright() {
- if (birthday_r_len <= -160) {
+ if (birthday_r_len <= -260) {
   clearInterval(birthday_timer);
   birthday_flag = !birthday_flag;
   return false;
