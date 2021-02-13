@@ -79,7 +79,7 @@ myPerson:
     photo: /medias/secretariat/personalPhotos/9.jpg
     name: 廖楚阳
     nickname: Meia
-    birthday: 2003/1/15
+    birthday: 2003/01/15
     position: 宣传与网络中心联络员
   no7:
     photo: /medias/secretariat/personalPhotos/8.jpg

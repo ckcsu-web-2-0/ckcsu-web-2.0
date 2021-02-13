@@ -1,0 +1,64 @@
+#birthday_area{
+    position:fixed;
+    width:260px;
+    right:-260px;
+    top:27%;
+   }
+   #birthday_small_menu ul {
+    list-style: none;
+   }
+   #birthday_area #birthday_on{
+    position: absolute;
+    top: 40%;
+    right: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(13, 143, 143, 0.2);
+    }
+   #birthday_area #birthday_on p{
+    font-size:30px;
+    text-align:center;
+    margin-top:-6px;
+    color:#01E290;
+    line-height:30px;
+    }
+   #birthday_area #birthday_small_menu {
+    width:100%;
+    } 
+   #birthday_area #birthday_small_menu ul li {
+    width:100%;
+    height: 44px;
+    text-align:center;
+    color: #b6c4ed;
+    background-color: rgba(2, 27, 38, 0.62);
+    border-top: 1px solid #043B46;
+    line-height: 44px;
+   }
+   #birthday_area #birthday_small_menu ul li a{
+    text-decoration: none; 
+    margin-left:30px;
+    color: #999393;
+    font-size:16px;
+    font-family: 'Microsoft Yahei';
+    }
+   #birthday_area #birthday_small_menu li.active {
+    width: 256px; 
+    background-color: rgba(2, 27, 38, 0.87);
+    border-left: 4px solid #0d5252;
+    border-top: 0px;
+   }
+   #birthday_area #birthday_small_menu li.active a{
+    color: #00ffff;
+    }
+   
+   #birthday_area #birthday_small_menu ul li:hover {
+    width: 256px;
+    background-color: rgba(2, 27, 38, 0.87);
+    border-left: 4px solid #00ffff;
+   
+   }
+   #birthday_area #birthday_small_menu ul li:hover a{
+    color: #00ffff; 
+    } 
