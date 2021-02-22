@@ -147,9 +147,9 @@ logo: /medias/logo.png
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
   enable: true
-  name: 院网
-  icon: fab fa-heart-o
-  url: http://ckc.zju.edu.cn/
+  name: 下单系统
+  icon: far fa-thumbs-up
+  url: http://pot.ckcsu.com.cn/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
