@@ -19,42 +19,42 @@ menu:
   归档:
     url: /archives
     icon: fas fa-archive
-  部门介绍:
-    icon: fas fa-id-card
-    children:
-      - name: 秘书处
-        url: /about/secretariat
-      - name: 发展创新部
-        url: /about/development-and-innovation
-      - name: 宣传与网络中心
-        url: /about/design-and-web
-      - name: 权益服务部
-        url: /about/rights-safeguard
-      - name: 文艺部
-        url: /about/art
-      - name: 学术部
-        url: /about/academic
-      - name: 体育部
-        url: /about/sports
-      - name: 对外交流部
-        url: /about/diplomacy
+#  部门介绍:
+#    icon: fas fa-id-card
+#    children:
+#      - name: 秘书处
+#        url: /about/secretariat
+#      - name: 发展创新部
+#        url: /about/development-and-innovation
+#      - name: 宣传与网络中心
+#        url: /about/design-and-web
+#      - name: 权益服务部
+#        url: /about/rights-safeguard
+#      - name: 文艺部
+#        url: /about/art
+#      - name: 学术部
+#        url: /about/academic
+#      - name: 体育部
+#        url: /about/sports
+#      - name: 对外交流部
+#        url: /about/diplomacy
 
-  留言板:
-    url: /contact
-    icon: fas fa-comments
-  友链:
-    url: /friends
-    icon: fas fa-address-book
-  实验室:
-    url: /lab
-    icon: fas fa-flask
-    children:
-      - name: tick-tock
-        url: /lab/lab1
-        icon: fas fa-id-card
-      - name: 今天吃啥呀
-        url: /lab/lab3
-        icon: fas fa-window-maximize
+#  留言板:
+#    url: /contact
+#    icon: fas fa-comments
+  # 友链:
+    # url: /friends
+    # icon: fas fa-address-book
+#  实验室:
+#    url: /lab
+#    icon: fas fa-flask
+#    children:
+#      - name: tick-tock
+#        url: /lab/lab1
+#        icon: fas fa-id-card
+#      - name: 今天吃啥呀
+#        url: /lab/lab3
+#        icon: fas fa-window-maximize
 
 # Website start time.
 # 站点运行开始时间.
@@ -89,7 +89,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -272,7 +272,7 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: true
+  enable: false
   appId: vzBXPOukbrOJzU1xEWsB3SF0-9Nh9j0Va
   appKey: MwB3Peb4Q7xVO3cSjy3JH8B9
   notify: true
@@ -369,7 +369,7 @@ baiduAnalytics:
   id:
 
 # 百度搜索资源平台提交链接
-baiduPush: true
+baiduPush: false
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -520,9 +520,9 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/?spm=a2c4g.11186623.2.8.1bd946f3lnP4Fn
+  text: 浙ICP备2021004990号-2
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
