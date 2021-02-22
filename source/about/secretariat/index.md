@@ -7,7 +7,7 @@ layout: "about"
 profile:
   name: 秘书处
   avatar: /medias/secretariat/avatar.jpg
-  career: 
+  career: 蜜小淑
   introduction: 
   - 秘书处作为竺可桢学院学生会的核心中枢部门，主要承担学生会的内建管理、各部门间的联络协调，以及学生会的日常运营工作。部门工作之外，秘书处更是一个温暖的家：从生日party到部门日租，从例会bg（请客）到深夜dt（deep talk），从热闹群聊到组爸组妈……
   - 秘书处，温暖港湾的不二之选！

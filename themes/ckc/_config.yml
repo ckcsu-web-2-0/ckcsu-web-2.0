@@ -49,18 +49,12 @@ menu:
     url: /lab
     icon: fas fa-flask
     children:
-      - name: 来下单！
-        url: /lab/lab4
-        icon: fas fa-flask
       - name: tick-tock
         url: /lab/lab1
         icon: fas fa-id-card
       - name: 今天吃啥呀
         url: /lab/lab3
         icon: fas fa-window-maximize
-      - name: 聊天记录伪造现场
-        url: /lab/lab2
-        icon: fas fa-user
 
 # Website start time.
 # 站点运行开始时间.
