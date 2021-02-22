@@ -4,20 +4,154 @@
   
     
     <entry>
+<<<<<<< HEAD
       <title>hello, 会网</title>
       <link href="2021/02/22/hello,%20%E4%BC%9A%E7%BD%91/"/>
       <url>2021/02/22/hello,%20%E4%BC%9A%E7%BD%91/</url>
       
         <content type="html"><![CDATA[<p>经给宣网web组寒假期间的肝锅，我们的新会网终于如约问世了！</p><p>在这里，你既可以看到竺会活动的记录，也可以前往<a href="http://pot.ckcsu.com.cn/">下单系统</a>下单。</p><p>当然，这里还有竺会各部门的简介，以及贴心的生日提醒。</p><p>作为一个刚投入使用的新项目，会网和下单系统当然还可能有很多的bug，如有发现bug或是对新功能有想法，欢迎大家联系我们，一起助力会网变得更好！</p><p>主要开发人员及联系方式：</p><p>黄文翀，QQ: 627702281</p><p>余童，QQ: 2710641725</p>]]></content>
+=======
+      <title></title>
+      <link href="2021/02/07/NewBeeHere/"/>
+      <url>2021/02/07/NewBeeHere/</url>
+      
+        <content type="html"><![CDATA[<p>新人报道</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网盘使用指北</title>
+      <link href="2021/02/03/pan-instruction/"/>
+      <url>2021/02/03/pan-instruction/</url>
+      
+        <content type="html"><![CDATA[<p>点击以下链接下载FileZilla</p><p><a href="https://ckcsu.com.cn/applications/FileZilla.zip">下载地址1（本站）</a>、<a href="https://en.softonic.com/download/filezilla/windows/post-download">下载地址2（官网）</a></p><p>点开安装包，进行安装</p><p>按<code>Ctrl+S</code>，出现如下界面：</p><p><img src="http://119.45.92.145/images/pan-instruction/pic1.png"></p><p>点击<code>新站点</code>，出现如下界面</p><p><img src="http://119.45.92.145/images/pan-instruction/pic2.png"></p><p>在“主机”中输入ip地址，再输入部门的用户名与密码，点击连接即可</p><p><img src="http://119.45.92.145/images/pan-instruction/pic3.png"></p><p>至于你的文件传到哪里</p><p>等yt先弄好再告诉你们</p><p>yt快干活啦！</p>]]></content>
       
       
       <categories>
           
-          <category> hello </category>
+          <category> 指北 </category>
           
       </categories>
       
       
+        <tags>
+            
+            <tag> 指北 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>下单指北</title>
+      <link href="2021/02/03/pot-instruction/"/>
+      <url>2021/02/03/pot-instruction/</url>
+      
+        <content type="html"><![CDATA[<p>首先，建立一个文件夹，以单号命名</p><p>在文件夹中放一个压缩包，内含材料和文案等内容</p><p>在文件夹中放下单表，文件名为<code>pot.txt</code>，内容如下（建议直接复制）：</p><pre class="line-numbers language-none"><code class="language-none">---title: Hello Potcategories: pottag: pottype: &quot;pot&quot;layout: &quot;pot&quot;date: 2021-02-03 13:30:00pot:  name: 活动名称  department: 下单部门  type: 订单类型  id: 订单号  contactPerson: 对接人姓名  phone: 对接人手机号  QQ: 对接人QQ号  time: 下单时间  ddl: DDL  place: 活动地点  requirement: 需求  reviewPerson: 审核人姓名---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>以下是一个例子</p><pre class="line-numbers language-none"><code class="language-none">---title: Hello Potcategories: pottag: pottype: &quot;pot&quot;layout: &quot;pot&quot;date: 2021-02-03 13:30:00pot:  name: 重建会网  department: 宣传与网络中心  type: 网站设计  id: XW00000001  contactPerson: 艾野  phone: 12312341234  QQ: 123123123  time: 2021&#x2F;02&#x2F;14  ddl: 2021&#x2F;02&#x2F;16  place: 无  requirement: 能实现在线下单、网盘存储、门户展示等功能  reviewPerson: 栋哥---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>打开Filezilla，登录部门网盘账号，将整个文件夹上传到账号的根目录中</p><p>每天12:00、18:00、22:00会定时更新，在下单完成之后的最近更新时间点，会在网站生成下单页面</p><p>页面生成后可以及时关注进度，一旦宣网有人接单，接单人会在对应页面的评论区中留下联系方式</p><p>祝各位下单愉快！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 指北 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 指北 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Pot</title>
+      <link href="2021/02/03/hello-pot/"/>
+      <url>2021/02/03/hello-pot/</url>
+      
+        <content type="html"><![CDATA[<p>文件链接：<a href="https://pan.baidu.com/">点这里</a></p>]]></content>
+>>>>>>> main
+      
+      
+      <categories>
+          
+<<<<<<< HEAD
+          <category> hello </category>
+=======
+          <category> 未接单 </category>
+>>>>>>> main
+          
+      </categories>
+      
+      
+<<<<<<< HEAD
+=======
+        <tags>
+            
+            <tag> pot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Pot 2</title>
+      <link href="2021/02/03/hello-pot2/"/>
+      <url>2021/02/03/hello-pot2/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 已接单 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Pot 3</title>
+      <link href="2021/02/03/hello-pot3/"/>
+      <url>2021/02/03/hello-pot3/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 已完成单 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pot </tag>
+            
+        </tags>
+      
+>>>>>>> main
     </entry>
     
     
