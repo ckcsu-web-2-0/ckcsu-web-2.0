@@ -89,7 +89,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -149,14 +149,14 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  http://Stopaimme.net
-  email: 1270096895@qq.com
+  github:  https://github.com/ckcsu-web-2-0
+  email: zkzxyxsh@163.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1270096895
+  qq: # 1270096895
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 
 
@@ -273,8 +273,8 @@ livere:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId: vzBXPOukbrOJzU1xEWsB3SF0-9Nh9j0Va
-  appKey: MwB3Peb4Q7xVO3cSjy3JH8B9
+  appId: 7xToac7FM76EmMCbswm2BBMw-gzGzoHsz
+  appKey: 37NiKQ92vQDLoXfkcUmd4HDh
   notify: true
   verify: true
   visitor: true
@@ -520,15 +520,15 @@ banner:
 
 # ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/
+  text: 浙ICP备2021004990号-2
 # 公安部备案信息尾部显示
 # 必须先把ICP备案激活，此项才有效
 gongan:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: http://www.beian.gov.cn/
+  text: 浙公网安备 33010602011602号
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
