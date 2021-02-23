@@ -518,8 +518,14 @@ instantpage:
 banner:
   enable: true
 
-#ICP备案信息尾部显示
+# ICP备案信息尾部显示
 icp:
+  enable: false
+  url: # 备案链接
+  text: # 备案信息
+# 公安部备案信息尾部显示
+# 必须先把ICP备案激活，此项才有效
+gongan:
   enable: false
   url: # 备案链接
   text: # 备案信息
