@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ckcsu.com.cn/2021/02/25/%E4%BC%9A%E7%BD%91%E4%BD%BF%E7%94%A8%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</loc>
+    
+    <lastmod>2021-02-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ckcsu.com.cn/about/design-and-web/index.html</loc>
     
     <lastmod>2021-02-23</lastmod>
@@ -86,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://ckcsu.com.cn/categories/index.html</loc>
+    <loc>http://ckcsu.com.cn/contact/index.html</loc>
     
     <lastmod>2021-02-11</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ckcsu.com.cn/contact/index.html</loc>
+    <loc>http://ckcsu.com.cn/categories/index.html</loc>
     
     <lastmod>2021-02-11</lastmod>
     
@@ -130,7 +137,7 @@
 
   <url>
     <loc>http://ckcsu.com.cn/</loc>
-    <lastmod>2021-02-23</lastmod>
+    <lastmod>2021-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -140,7 +147,7 @@
   
   <url>
     <loc>http://ckcsu.com.cn/categories/hello/</loc>
-    <lastmod>2021-02-23</lastmod>
+    <lastmod>2021-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
