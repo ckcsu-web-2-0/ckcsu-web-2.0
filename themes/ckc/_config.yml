@@ -149,14 +149,14 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  http://Stopaimme.net
-  email: 1270096895@qq.com
+  github:  https://github.com/ckcsu-web-2-0
+  email: zkzxyxsh@163.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1270096895
+  qq: # 1270096895
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 
 
@@ -272,9 +272,15 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
+<<<<<<< HEAD
   enable: false
   appId: vzBXPOukbrOJzU1xEWsB3SF0-9Nh9j0Va
   appKey: MwB3Peb4Q7xVO3cSjy3JH8B9
+=======
+  enable: true
+  appId: 7xToac7FM76EmMCbswm2BBMw-gzGzoHsz
+  appKey: 37NiKQ92vQDLoXfkcUmd4HDh
+>>>>>>> main
   notify: true
   verify: true
   visitor: true
@@ -518,11 +524,22 @@ instantpage:
 banner:
   enable: true
 
-#ICP备案信息尾部显示
+# ICP备案信息尾部显示
 icp:
   enable: true
+<<<<<<< HEAD
   url: https://beian.miit.gov.cn/?spm=a2c4g.11186623.2.8.1bd946f3lnP4Fn
   text: 浙ICP备2021004990号-2
+=======
+  url: https://beian.miit.gov.cn/
+  text: 浙ICP备2021004990号-2
+# 公安部备案信息尾部显示
+# 必须先把ICP备案激活，此项才有效
+gongan:
+  enable: true
+  url: http://www.beian.gov.cn/
+  text: 浙公网安备 33010602011602号
+>>>>>>> main
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
