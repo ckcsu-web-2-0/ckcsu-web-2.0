@@ -65,11 +65,8 @@ var coverPostsCount = coverPosts.length;
             <%- partial('_partial/bg-cover-content') %>
 
             <div class="cover-btns">
-                <a href="<%=
-                        [theme.dream, theme.music, theme.video, theme.recommend]
-                                .every(i=>i.enable)? "#indexCard": "#articles"
-                        %>" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i><%- __('startRead') %>
+                <a href="http://ckcsu.com.cn/2021/02/25/%E4%BC%9A%E7%BD%91%E4%BD%BF%E7%94%A8%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/" class="waves-effect waves-light btn">
+                    <i class="fa fa-angle-double-down"></i>使用指南
                 </a>
 
                 <% if (theme.indexbtn && theme.indexbtn.enable) { %>
