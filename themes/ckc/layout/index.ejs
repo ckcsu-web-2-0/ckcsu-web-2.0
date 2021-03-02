@@ -124,6 +124,10 @@
         </div>
     </article>
 
+<?php
+session_start();
+if(isset($_SESSION['pushpot'])){
+echo '
     <div id="birthday_area">
         <div id="birthday_small_menu">
             <ul id="birthday_menu_ul">
@@ -131,10 +135,19 @@
         </div>  
         <div id="birthday_on" onclick="xuanfu();"><p>+</p></div> 
     </div>
+';
+}
+?>
 
 </main>
 
+<?php
+if(isset($_SESSION['pushpot'])){
+echo '
 <script src="<%- theme.jsDelivr.url %>/js/birthday.js"></script>
+';
+}
+?>
 
 <% if (page.total > 1) { %>
 <%- partial('_partial/paging') %>

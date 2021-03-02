@@ -55,6 +55,9 @@ menu:
       - name: 今天吃啥呀
         url: /lab/lab3
         icon: fas fa-window-maximize
+  登录:
+    url: /login.php
+    icon: fas fa-user-circle
 
 # Website start time.
 # 站点运行开始时间.

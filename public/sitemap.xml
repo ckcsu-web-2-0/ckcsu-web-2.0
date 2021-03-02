@@ -16,23 +16,23 @@
   </url>
   
   <url>
-    <loc>http://ckcsu.com.cn/about/secretariat/index.html</loc>
-    
-    <lastmod>2021-02-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ckcsu.com.cn/about/development-and-innovation/index.html</loc>
     
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-02-23</lastmod>
     
   </url>
   
   <url>
     <loc>http://ckcsu.com.cn/about/academic/index.html</loc>
     
-    <lastmod>2021-02-22</lastmod>
+    <lastmod>2021-02-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ckcsu.com.cn/about/secretariat/index.html</loc>
+    
+    <lastmod>2021-02-23</lastmod>
     
   </url>
   
@@ -137,7 +137,7 @@
 
   <url>
     <loc>http://ckcsu.com.cn/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,7 +147,7 @@
   
   <url>
     <loc>http://ckcsu.com.cn/categories/hello/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
