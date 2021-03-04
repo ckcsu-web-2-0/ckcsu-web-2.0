@@ -19,6 +19,7 @@ menu:
   归档:
     url: /archives
     icon: fas fa-archive
+<<<<<<< HEAD
 #  部门介绍:
 #    icon: fas fa-id-card
 #    children:
@@ -55,6 +56,47 @@ menu:
 #      - name: 今天吃啥呀
 #        url: /lab/lab3
 #        icon: fas fa-window-maximize
+=======
+  部门介绍:
+    icon: fas fa-id-card
+    children:
+      - name: 秘书处
+        url: /about/secretariat
+      - name: 发展创新部
+        url: /about/development-and-innovation
+      - name: 宣传与网络中心
+        url: /about/design-and-web
+      - name: 权益服务部
+        url: /about/rights-safeguard
+      - name: 文艺部
+        url: /about/art
+      - name: 学术部
+        url: /about/academic
+      - name: 体育部
+        url: /about/sports
+      - name: 对外交流部
+        url: /about/diplomacy
+
+  留言板:
+    url: /contact
+    icon: fas fa-comments
+  友链:
+    url: /friends
+    icon: fas fa-address-book
+  实验室:
+    url: /lab
+    icon: fas fa-flask
+    children:
+      - name: tick-tock
+        url: /lab/lab1
+        icon: fas fa-id-card
+      - name: 今天吃啥呀
+        url: /lab/lab3
+        icon: fas fa-window-maximize
+  登录:
+    url: /login.php
+    icon: fas fa-user-circle
+>>>>>>> main
 
 # Website start time.
 # 站点运行开始时间.

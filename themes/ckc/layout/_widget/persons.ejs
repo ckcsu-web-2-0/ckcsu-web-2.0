@@ -47,6 +47,12 @@ var gallery = page.myPerson;
     }
 </style>
 
+<?php
+
+session_start();
+if(isset($_SESSION['pushpot'])){
+
+echo '
 <input type="checkbox" id="contTab" checked="checked" class="tabbed">
 
 <div id="cont" class="my-person">
@@ -75,3 +81,6 @@ var gallery = page.myPerson;
 </div>
 
 <div class="content-more"><div class="gradient"></div> <label for="contTab" class="readmore">点击展开所有成员</label></div>
+';
+}
+?>
